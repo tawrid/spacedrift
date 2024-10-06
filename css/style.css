@@ -29,6 +29,16 @@ body {
   background-color: #575757;
 }
 
+/* Sidebar logo image styling */
+.nav-logo {
+  display: block;
+  width: 150px; /* Adjust the width as needed */
+  height: auto;
+  margin: 0 auto 20px; /* Center the image and add space below it */
+  padding: 10px;
+}
+
+
 /* Main content styling */
 main {
   margin-left: 220px; /* Creates space for the sidebar */
