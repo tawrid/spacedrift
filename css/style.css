@@ -23,10 +23,16 @@ body {
   padding: 10px 15px;
   text-decoration: none;
   font-size: 16px;
+  transition: background-color 0.3s ease; /* Smooth transition for hover and active states */
 }
 
 .sidebar a:hover {
-  background-color: #575757;
+  background-color: #575757; /* Changes background on hover */
+}
+
+.sidebar a.active {
+  background-color: #4CAF50; /* Highlighted color for active link */
+  font-weight: bold; /* Optional: make the text bolder for the active link */
 }
 
 /* Sidebar logo image styling */
@@ -37,7 +43,6 @@ body {
   margin: 0 auto 20px; /* Center the image and add space below it */
   padding: 10px;
 }
-
 
 /* Main content styling */
 main {
@@ -83,7 +88,7 @@ body, main {
     height: auto;
     position: relative;
   }
-  
+
   .sidebar a {
     float: left;
   }
