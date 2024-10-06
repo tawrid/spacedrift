@@ -9,6 +9,20 @@
     <style>
         body { margin: 0; }
         #unity-container { width: 100%; height: 100vh; }
+        .video-container {
+            margin-top: 20px;
+            text-align: center;
+        }
+        iframe {
+            width: 80%;
+            height: 400px;
+        }
+        .play-text {
+            text-align: center;
+            margin-top: 20px;
+            font-size: 1.5rem; /* Adjust the font size as needed */
+            color: #333; /* Color for the text */
+        }
     </style>
 </head>
 <body>
@@ -32,6 +46,15 @@
     <h1>Welcome to the Space Drift Demo</h1>
     <p>Experience the excitement of <strong>Space Drift: Mind & Motion</strong> through this interactive demo!</p>
     <p>Navigate the challenges of space by guiding the ball through various obstacles in a microgravity environment. Test your skills and enjoy the journey!</p>
+
+    <!-- YouTube video section -->
+    <div class="video-container">
+        <h2>Watch the Gameplay Video</h2>
+        <iframe src="https://www.youtube.com/embed/J4-6fqgA_v4" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </div>
+
+    <!-- Play the game text -->
+    <div class="play-text">Play the game</div>
 
     <div id="unity-container" class="unity-desktop">
         <canvas id="unity-canvas" width="800" height="600" tabindex="-1"></canvas>
