@@ -60,9 +60,7 @@ To set up the project locally for development:
     ```bash
     cd spacedrift
     ```
-3. Open the project in Unity:
-    - Ensure you have [Unity Hub](https://unity.com/) installed and use the appropriate version of Unity (check the `ProjectVersion.txt` for the exact version).
-4. To run the web demo, open the `pages/demo.html` file in your browser.
+3. To run the web demo, open the `pages/demo.html` file in your browser.
 
 ## Contributors
 
