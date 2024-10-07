@@ -38,7 +38,7 @@ The project includes both a **physical** and a **digital** component:
 You can try out the demo and experience **Space Drift: Mind & Motion** through the following:
 
 - **YouTube Video**: Watch a gameplay walkthrough on [YouTube](https://youtu.be/J4-6fqgA_v4).
-- **Play the Game**: You can play the interactive demo of the digital component by launching the Unity WebGL version [here](#).
+- **Play the Game**: You can play the interactive demo of the digital component by launching the Unity WebGL.
 
 ## Technologies Used
 
@@ -69,4 +69,4 @@ To set up the project locally for development:
 
 ## License
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the MIT License.
